@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Steppe Wealth</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta
+            content="минералы, кристаллы, классификация минералов, описание кристаллов, как распознать минералы, свойства камней, определение минералов, виды кристаллов"
+            name="keywords"
+        />
+        <meta
+            content="Подробное руководство по минералам и кристаллам: описание, классификация, способы распознавания и определения. Узнайте, как отличать различные виды минералов и кристаллов по их свойствам и внешнему виду."
+            name="description"
+        />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@200;300;400;500;600&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-border text-secondary"
+                style="width: 3rem; height: 3rem"
+                role="status"
+            >
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid nav-bar p-0">
+            <nav
+                class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0"
+            >
+                <a href="" class="navbar-brand p-0">
+                    <h1
+                        class="display-5 text-secondary m-0"
+                        style="font-size: 2rem"
+                    >
+                        Steppe Wealth
+                    </h1>
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse"
+                >
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active"
+                            >Главная</a
+                        >
+                        <a href="about.html" class="nav-item nav-link">О нас</a>
+                        <a href="service.html" class="nav-item nav-link"
+                            >Услуги</a
+                        >
+                        <a href="blog.html" class="nav-item nav-link"
+                            >Новости</a
+                        >
+                        <a href="analitics.html" class="nav-item nav-link"
+                            >Аналитика</a
+                        >
+
+                        <a href="testimonial.html" class="nav-item nav-link"
+                            >Партнёры</a
+                        >
+                        <a href="docs.html" class="nav-item nav-link"
+                            >Документы</a
+                        >
+                    </div>
+                    <a
+                        href="contact.html"
+                        class="btn btn-primary border-secondary rounded-pill py-2 px-4 px-lg-3 mb-3 mb-md-3 mb-lg-0"
+                        >Связаться с нами</a
+                    >
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- Carousel Start -->
+        <div class="carousel-header">
+            <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li
+                        data-bs-target="#carouselId"
+                        data-bs-slide-to="0"
+                        class="active"
+                    ></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img
+                            src="img/carousel-1.jpg"
+                            class="img-fluid"
+                            alt="Image"
+                        />
+                        <div class="carousel-caption">
+                            <div
+                                class="text-center p-4"
+                                style="max-width: 900px"
+                            >
+                                <h4
+                                    class="text-white text-uppercase fw-bold mb-3 mb-md-4 wow fadeInUp"
+                                    data-wow-delay="0.1s"
+                                >
+                                    Ознакомьтесь с ключевыми аспектами
+                                    инвестиций в минеральные ресурсы Казахстана.
+                                </h4>
+                                <h1
+                                    class="display-1 text-capitalize text-white mb-3 mb-md-4 wow fadeInUp"
+                                    data-wow-delay="0.3s"
+                                >
+                                    Возможности инвестиций
+                                </h1>
+                                <p
+                                    class="text-white mb-4 mb-md-5 fs-5 wow fadeInUp"
+                                    data-wow-delay="0.5s"
+                                >
+                                    Исследуйте актуальные данные и перспективы
+                                    для граждан Казахстана в сфере минеральных
+                                    ресурсов.
+                                </p>
+                                <a
+                                    class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5 wow fadeInUp"
+                                    data-wow-delay="0.7s"
+                                    href="contact.html"
+                                >
+                                    Связаться с нами
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            src="img/carousel-2.jpg"
+                            class="img-fluid"
+                            alt="Image"
+                        />
+                        <div class="carousel-caption">
+                            <div
+                                class="text-center p-4"
+                                style="max-width: 900px"
+                            >
+                                <h5
+                                    class="text-white text-uppercase fw-bold mb-3 mb-md-4 wow fadeInUp"
+                                    data-wow-delay="0.1s"
+                                >
+                                    Обзор актуальных тенденций и анализа на
+                                    рынке минеральных ресурсов.
+                                </h5>
+                                <h1
+                                    class="display-1 text-capitalize text-white mb-3 mb-md-4 wow fadeInUp"
+                                    data-wow-delay="0.3s"
+                                >
+                                    Аналитика и прогнозы
+                                </h1>
+                                <p
+                                    class="text-white mb-4 mb-md-5 fs-5 wow fadeInUp"
+                                    data-wow-delay="0.5s"
+                                >
+                                    Получите систематизированную информацию о
+                                    состоянии отрасли и инвестиционных
+                                    перспективах для местных инвесторов.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselId"
+                    data-bs-slide="prev"
+                >
+                    <span
+                        class="carousel-control-prev-icon bg-secondary wow fadeInLeft"
+                        data-wow-delay="0.2s"
+                        aria-hidden="false"
+                    ></span>
+                    <span class="visually-hidden-focusable">Предыдущий</span>
+                </button>
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselId"
+                    data-bs-slide="next"
+                >
+                    <span
+                        class="carousel-control-next-icon bg-secondary wow fadeInRight"
+                        data-wow-delay="0.2s"
+                        aria-hidden="false"
+                    ></span>
+                    <span class="visually-hidden-focusable">Следующий</span>
+                </button>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- About Start -->
+        <div class="container-fluid py-5" id="approach">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-xl-5 wow fadeInLeft" data-wow-delay="0.1s">
+                        <div class="bg-light rounded">
+                            <img
+                                src="img/approach.jpg"
+                                class="img-fluid w-100 h-100"
+                                style="margin-bottom: -7px"
+                                alt="Image"
+                            />
+                        </div>
+                    </div>
+                    <div class="col-xl-7 wow fadeInRight" data-wow-delay="0.3s">
+                        <h5 class="sub-title pe-3">Подход к инвестициям</h5>
+                        <h1 class="display-5 mb-4">
+                            Перспективы вложений в минеральные ресурсы:
+                            аналитика и потенциал
+                        </h1>
+                        <p class="mb-4">
+                            Мы рассматриваем стратегические направления для
+                            граждан Казахстана, стремящихся инвестировать в
+                            минеральные ресурсы страны. В центре внимания —
+                            устойчивость, долгосрочная выгода и национальная
+                            значимость проектов.
+                        </p>
+                        <p class="mb-4">
+                            На нашем блоге вы найдёте анализ ключевых отраслей,
+                            включая добычу полезных ископаемых, переработку руд
+                            и участие в инфраструктурных инициативах. Мы
+                            освещаем актуальные изменения законодательства,
+                            примеры локальных инициатив и рекомендации от
+                            экспертов.
+                        </p>
+                        <p class="mb-4">
+                            Материалы готовятся с участием специалистов, включая
+                            экономиста Сергея Ермекова и геоаналитика Алексея
+                            Рахимова, что позволяет освещать инвестиционные
+                            аспекты с разных сторон — от начального входа до
+                            управления активами.
+                        </p>
+                        <p>
+                            Посетите наш блог, чтобы узнать больше о
+                            возможностях развития капитала в сфере минеральных
+                            ресурсов. Это открытая площадка для диалога, обмена
+                            опытом и формирования новой инвестиционной культуры.
+                        </p>
+                        <a href="blog.html" class="btn btn-primary mt-3"
+                            >Перейти в блог</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Testimonial Start -->
+        <div class="container-fluid testimonial overflow-hidden py-5">
+            <div class="container py-5">
+                <div
+                    class="section-title text-center mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                >
+                    <div class="sub-style">
+                        <h5 class="sub-title text-primary px-3">
+                            ОТЗЫВЫ О НАШИХ УСЛУГАХ
+                        </h5>
+                    </div>
+                    <h1 class="display-5 mb-4">
+                        Мнения наших клиентов о возможностях инвестирования в
+                        минеральные ресурсы Казахстана
+                    </h1>
+                    <p class="mb-0">
+                        Мы гордимся тем, что предоставляем достоверную и
+                        полезную информацию о возможностях инвестирования в
+                        минеральные ресурсы Казахстана. Ниже вы найдете отзывы
+                        тех, кто уже воспользовался нашими материалами и смог
+                        лучше понять особенности и перспективы этого
+                        направления.
+                    </p>
+                </div>
+                <div
+                    class="owl-carousel testimonial-carousel wow zoomInDown"
+                    data-wow-delay="0.2s"
+                >
+                    <div class="testimonial-item">
+                        <div class="testimonial-content p-4 mb-5">
+                            <p class="fs-5 mb-0">
+                                "Информация оказалась крайне полезной для оценки
+                                рисков и перспектив вложений в минеральный
+                                сектор. Особенно понравилась аналитика по
+                                регионам и типам ресурсов. Теперь я увереннее
+                                принимаю решения о распределении капитала."
+                            </p>
+                            <div class="d-flex justify-content-end">
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div
+                                class="rounded-circle me-4"
+                                style="width: 100px; height: 100px"
+                            >
+                                <img
+                                    class="img-fluid rounded-circle"
+                                    src="img/testimonial-1.jpg"
+                                    alt="img"
+                                />
+                            </div>
+                            <div class="my-auto">
+                                <h5>Игорь Султанов</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-content p-4 mb-5">
+                            <p class="fs-5 mb-0">
+                                "Материалы помогли мне разобраться в нюансах
+                                инвестирования в добычу и переработку полезных
+                                ископаемых. Очень понравилась подача – без
+                                лишних слов, всё по делу и с примерами.
+                                Чувствуется профессиональный подход."
+                            </p>
+                            <div class="d-flex justify-content-end">
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div
+                                class="rounded-circle me-4"
+                                style="width: 100px; height: 100px"
+                            >
+                                <img
+                                    class="img-fluid rounded-circle"
+                                    src="img/testimonial-2.jpg"
+                                    alt="img"
+                                />
+                            </div>
+                            <div class="my-auto">
+                                <h5>Мария Тулебаева</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-content p-4 mb-5">
+                            <p class="fs-5 mb-0">
+                                "Ранее я мало знал о потенциале минеральной
+                                отрасли, но благодаря этому ресурсу смог
+                                сформировать общее представление о процессе
+                                инвестирования. Особенно ценю обзорные материалы
+                                и справки по юридическим аспектам."
+                            </p>
+                            <div class="d-flex justify-content-end">
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div
+                                class="rounded-circle me-4"
+                                style="width: 100px; height: 100px"
+                            >
+                                <img
+                                    class="img-fluid rounded-circle"
+                                    src="img/testimonial-3.jpg"
+                                    alt="img"
+                                />
+                            </div>
+                            <div class="my-auto">
+                                <h5>Данияр Абдуллин</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+        <!-- Contact Start -->
+        <div class="container-fluid contact overflow-hidden pb-5">
+            <div class="container py-5">
+                <div class="office pt-5">
+                    <div
+                        class="section-title text-center mb-5 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="sub-style">
+                            <h5 class="sub-title text-primary px-3">
+                                Компании отрасли
+                            </h5>
+                        </div>
+                        <h1 class="display-5 mb-4">
+                            Деятельность в сфере природных ресурсов Казахстана
+                        </h1>
+                        <p class="mb-0">
+                            Представлены организации, принимающие участие в
+                            разработке, добыче и экспортных операциях с
+                            минеральными ресурсами Казахстана. Материалы помогут
+                            понять, какие структуры участвуют в этом процессе и
+                            какие направления доступны для изучения
+                            инвестиционного потенциала.
+                        </p>
+                    </div>
+                    <div class="row g-4 justify-content-center">
+                        <div
+                            class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp"
+                            data-wow-delay="0.1s"
+                        >
+                            <div class="office-item p-4">
+                                <div class="office-img mb-4">
+                                    <img
+                                        src="img/office-2.jpg"
+                                        class="img-fluid w-100 rounded"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="office-content d-flex flex-column">
+                                    <h4 class="mb-2">АО "Казминералс Тех"</h4>
+                                    <p class="mb-0">
+                                        Одна из крупнейших горнодобывающих
+                                        структур, задействованных в освоении
+                                        месторождений меди, цинка и других
+                                        металлов. Компания применяет современные
+                                        методы разведки и добычи.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp"
+                            data-wow-delay="0.3s"
+                        >
+                            <div class="office-item p-4">
+                                <div class="office-img mb-4">
+                                    <img
+                                        src="img/office-1.jpg"
+                                        class="img-fluid w-100 rounded"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="office-content d-flex flex-column">
+                                    <h4 class="mb-2">ТОО "Минерал-Экспорт"</h4>
+                                    <p class="mb-0">
+                                        Специализируется на транспортировке и
+                                        экспорте полезных ископаемых, включая
+                                        редкоземельные элементы. Компания
+                                        взаимодействует с местными
+                                        разработчиками и логистическими
+                                        операторами.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp"
+                            data-wow-delay="0.5s"
+                        >
+                            <div class="office-item p-4">
+                                <div class="office-img mb-4">
+                                    <img
+                                        src="img/office-3.jpg"
+                                        class="img-fluid w-100 rounded"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="office-content d-flex flex-column">
+                                    <h4 class="mb-2">Группа "ГеоРесурс-КЗ"</h4>
+                                    <p class="mb-0">
+                                        Объединение специалистов в сфере
+                                        геологоразведки, участвующих в поиске
+                                        новых залежей природных ресурсов. Фокус
+                                        на устойчивом развитии и соблюдении
+                                        экологических норм.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid footer py-5 wow fadeIn"
+            data-wow-delay="0.2s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">
+                                Контактная информация
+                            </h4>
+                            <a href="">
+                                <i class="fa fa-map-marker-alt me-2"></i>
+                                Әл-Фараби даңғылы 21, Алматы 050000, Казахстан
+                            </a>
+                            <a href="">
+                                <i class="fas fa-envelope me-2"></i>
+                                steppe_wealth@gmail.com
+                            </a>
+                            <a href="">
+                                <i class="fas fa-phone me-2"></i>
+                                +77056257474
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Часы работы</h4>
+                            <div class="mb-3">
+                                <h6 class="text-muted mb-0">
+                                    Понедельник - Пятница:
+                                </h6>
+                                <p class="text-white mb-0">09:00 - 19:00</p>
+                            </div>
+                            <div class="mb-3">
+                                <h6 class="text-muted mb-0">Суббота:</h6>
+                                <p class="text-white mb-0">10:00 - 17:00</p>
+                            </div>
+                            <div class="mb-3">
+                                <h6 class="text-muted mb-0">Воскресенье:</h6>
+                                <p class="text-white mb-0">Выходной день</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Навигация</h4>
+                            <a href="index.html" class="">
+                                <i class="fas fa-angle-right me-2"></i> Главная
+                            </a>
+                            <a href="contact.html" class="">
+                                <i class="fas fa-angle-right me-2"></i> Контакты
+                            </a>
+                            <a href="terms-of-use.html" class="">
+                                <i class="fas fa-angle-right me-2"></i> Условия
+                                использования
+                            </a>
+                            <a href="privacy-policy.html" class="">
+                                <i class="fas fa-angle-right me-2"></i> Политика
+                                конфиденциальности
+                            </a>
+                            <a href="cookie-policy.html" class="">
+                                <i class="fas fa-angle-right me-2"></i> Политика
+                                cookie
+                            </a>
+                            <a href="business-model.html" class="">
+                                <i class="fas fa-angle-right me-2"></i>
+                                Бизнес-модель
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item">
+                            <h4 class="text-white mb-4">Подписка на новости</h4>
+                            <p class="text-white mb-3">
+                                Получайте обновления о новых статьях,
+                                практических рекомендациях и научных материалах
+                                по минералам и кристаллам.
+                            </p>
+                            <form action="thanks.html" method="get">
+                                <div
+                                    class="position-relative mx-auto rounded-pill"
+                                >
+                                    <input
+                                        class="form-control border-0 rounded-pill w-100 py-3 ps-4 pe-5"
+                                        type="text"
+                                        placeholder="Ваш email"
+                                        id="email"
+                                        required
+                                    />
+                                    <button
+                                        type="submit"
+                                        id="submit"
+                                        class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2"
+                                    >
+                                        Подписаться
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-lg-square back-to-top"
+            ><i class="fa fa-arrow-up"></i
+        ></a>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">
+                    Согласие на использование cookie
+                </h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Этот сайт использует файлы cookie для обеспечения более
+                    удобного и персонализированного просмотра.
+                    <a href="cookie-policy.html">Подробнее...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Принять</button>
+                <button class="cookie-button" id="declineBtn">Отклонить</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
