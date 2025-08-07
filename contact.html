@@ -247,6 +247,7 @@
                                             type="text"
                                             class="form-control"
                                             id="name"
+                                            name="name"
                                             placeholder="Ваше имя"
                                             required
                                         />
@@ -259,6 +260,7 @@
                                             type="email"
                                             class="form-control"
                                             id="email"
+                                            name="email"
                                             placeholder="Ваш email"
                                             required
                                         />
@@ -268,21 +270,24 @@
                                 <div class="col-lg-12 col-xl-6">
                                     <div class="form-floating">
                                         <input
-                                            type="phone"
+                                            type="tel"
                                             class="form-control"
                                             id="phone"
+                                            name="phone"
                                             placeholder="Телефон"
                                             required
                                         />
                                         <label for="phone">Телефон</label>
                                     </div>
                                 </div>
+
                                 <div class="col-lg-12 col-xl-6">
                                     <div class="form-floating">
                                         <input
                                             type="text"
                                             class="form-control"
                                             id="project"
+                                            name="project"
                                             placeholder="Тема запроса"
                                             required
                                         />
@@ -291,12 +296,43 @@
                                         >
                                     </div>
                                 </div>
+                                <!-- Select for issue raised -->
+                                <div class="col-lg-12 col-xl-12">
+                                    <div class="form-floating">
+                                        <select
+                                            class="form-select"
+                                            id="issue"
+                                            name="issue"
+                                            aria-label="Выберите тему вопроса"
+                                            required
+                                        >
+                                            <option value="" selected disabled>
+                                                Выберите тему вопроса
+                                            </option>
+                                            <option value="investment">
+                                                Вопрос об инвестициях
+                                            </option>
+                                            <option value="legal">
+                                                Юридические вопросы
+                                            </option>
+                                            <option value="risk_management">
+                                                Управление рисками
+                                            </option>
+                                            <option value="other">
+                                                Другое
+                                            </option>
+                                        </select>
+                                        <label for="issue">Тема вопроса</label>
+                                    </div>
+                                </div>
+
                                 <div class="col-12">
                                     <div class="form-floating">
                                         <textarea
                                             class="form-control"
                                             placeholder="Оставьте сообщение"
                                             id="message"
+                                            name="message"
                                             style="height: 160px"
                                             required
                                         ></textarea>
@@ -305,6 +341,7 @@
                                 </div>
                                 <div class="col-12">
                                     <button
+                                        type="submit"
                                         class="btn btn-primary w-100 py-3"
                                         id="submit"
                                     >
@@ -438,6 +475,20 @@
                                 </div>
                             </form>
                         </div>
+                    </div>
+                    <div>
+                        Информация, представленная на данном сайте и в блоге,
+                        носит исключительно информационный характер и не
+                        является инвестиционной, финансовой, юридической или
+                        иной профессиональной консультацией. Несмотря на все
+                        усилия по обеспечению точности и актуальности
+                        материалов, мы не даем гарантий относительно полноты,
+                        достоверности или надежности информации. Любые
+                        инвестиционные решения, принимаемые на основе материалов
+                        сайта, осуществляются на ваш собственный риск.
+                        Рекомендуется проконсультироваться с квалифицированными
+                        специалистами перед принятием каких-либо решений,
+                        связанных с инвестициями.
                     </div>
                 </div>
             </div>
